@@ -1,6 +1,7 @@
 
 
 body {
+	width:100%;
 	background: url("imagenes/vajilla5.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
