@@ -2,7 +2,6 @@
 
 body {
 	width:100%;
-	background: url("imagenes/vajilla5.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
 
@@ -68,12 +67,11 @@ section {
 	max-width: 800px;
 	max-height: 800px;
 	margin-right: 30px;
-	height: auto;
+	height: 70px;
 }
 #carpa2{
 	float: right;
 	max-width: 600px;
-	max-height: 500px;
 	margin-right: 30px;
 	height: auto;
 }
@@ -81,7 +79,8 @@ section {
 	float: left;
 	max-width: 800px;
 	max-height: 800px;
-	margin-left: 30px;
+	margin-left: 70px;
+	height: 70px;
 }
 #vajilla{
 	background-color: #6E6E6E;
@@ -100,6 +99,7 @@ section {
 	margin-right: 30px;
 	padding: 50px;
 	text-align: center;
+
 }
 
 
@@ -111,7 +111,9 @@ section {
 	margin-right: 30px;
 	padding: 50px;
 	text-align: center;
+	margin-bottom: 30px;
 }
+
 
 button{
 	background-color: #6E6E6E;
@@ -125,14 +127,12 @@ button:hover {
  transition-duration: 0.1s;
 }
 #contacto{
-	height: 800px;
-	margin-top: 100px;
-	margin-bottom: 1px;
+margin-top: 10px;
 }
 
 #nosotros{
 	background-color: #6E6E6E;
-	height: 600px;
+	height: 450px;
 	width: 600px;
 	float: right;
 	margin-right: 30px;
@@ -167,7 +167,7 @@ li{
 			}
 		#nosotros{
 
-		margin-top: -100px;
+		margin-top: -80px;
 		width: 80%;
 		display:table-cell;
 		vertical-align:middle;
@@ -177,15 +177,19 @@ li{
 		}
 
 		#losotros{
+			
 			font-size: 28px;
 			color: #ffffff;
 		}
 
 		#empresa{
-			margin-top: 40px;
+			margin-top: 0px;
 			margin-bottom: 60px;
 			padding-bottom: 40px;
 		}	
+		#icononos{
+			margin-top: 20px;
+		}
 
 		#banquete{
 		margin-top: 30px;
@@ -214,9 +218,9 @@ li{
 			display: none;
 		}
 		#bloque5{
-			height: 1000px;
+			height: 600px;
 		}
-		#footer{
+		.footer{
 			height: 600px;
 		}
 		#bloque2{

@@ -28,14 +28,14 @@
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3" style="font-size: 18px;">
           <p>Menú</p>
         </button>
-        <a class="navbar-brand"><img src="imagenes/logonegrochico.png">
+        <a class="navbar-brand"><img src="imagenes/logonegrochico.png" class="img-responsive">
         </a>
         </div>
       <div id="navbar3" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html">Home</a></li>
           <li><a href="index.html#bloque2">Servicio</a></li>
-          <li><a href="index.html#nuestra">Nuestra Empresa</a></li>
+          <li><a href="index.html#nuestra">Nosotros</a></li>
           <li><a href="galeria.html">Galería</a></li>
           <li class="active"><a href="index.html#contacto">Contacto</a></li>
         </ul>
@@ -62,13 +62,13 @@
 		<br>
 		<br>
 		<p style="font-size: 25px; color: #FBEFF2;">
-			C A R P A S
+			CARPAS Y TOLDOS
 		</p>
 		<p>
 			<img class="icono" src="imagenes/icono-web-blanco.png">
 		</p>
 		<article style="font-size: 20px; color: #FBEFF2">
-		OFRECEMOS ARRIENDO DE CARPAS PERSONALIZADAS PARA SU EVENTO
+		OFRECEMOS ARRIENDO DE CARPAS PERSONALIZADAS Y DE EXCELENTE CALIDAD PARA SU EVENTO
 		</article>
 	</div>
 	</section>
@@ -81,14 +81,17 @@
 		<img src="imagenes/vajilla5.jpg" class="img-responsive">
 		</div>	
 		<div id="banquete">
+		<br>
+		<br>
+		<br>
 		<p style="letter-spacing: 2px; font-size: 25px; color: #FBEFF2;">
-			VAJILLERÍA
+			VAJILLERÍA Y MOBILIARIO
 		</p>
 		<p>
 			<img class="icono" src="imagenes/icono-web-blanco.png">
 		</p>
 		<article style="font-size: 20px; color: #FBEFF2">
-		DISPONEMOS DE FINA LÍNEA DE VAJILLERÍA Y COMPLETO MOBILIARIO
+		DISPONEMOS DE FINA LÍNEA DE VAJILLERÍA Y COMPLETO MOBILIARIO PARA CREAR EL MEJOR AMBIENTE
 		</article>
 	</div>
 	</section>
@@ -111,7 +114,7 @@
 			<img class="icono" src="imagenes/icono-web-blanco.png">
 		</p>
 		<article style="font-size: 20px; color: #FBEFF2">
-		CONTAMOS CON CHEF PARA CUBRIR TODAS LAS NECESIDADES CULINARIAS REQUERIDAS
+		CONTAMOS CON CHEF DE GRAN EXPERIENCIA DISPUESTO A HACER DE SU COMIDA ALGO INOLVIDABLE
 		</article>
 	</div>
 	</section>
@@ -125,9 +128,9 @@
 	<br>
 	<br>
 	<br>
-	
+		<div id="gal">
 		<p style="font-size: 25px; color: #FBEFF2;">
-			G A L E R I A
+			G A L E R Í A
 		</p>
 		<p>
 			<img class="icono" src="imagenes/icono-web-blanco.png">
@@ -139,6 +142,7 @@
 		<p style="font-size: 20px; color: #FBEFF2;">
 		 <button id="boton" onclick="galeria()">DESCUBRE</button>
 		</p>
+		</div>
 	</div>
 	</section>
 	<br>
@@ -148,7 +152,8 @@
 		<br>
 		<br>
 		<br>
-		<h1 id="losotros" style="font-weight: 800; text-align: center;">N O S O T R O S</h1>
+		<br>
+		<h1 id="losotros" style="font-weight: 800; margin-top: 20px; text-align: center;">N O S O T R O S</h1>
 		<br>
 		<br> 
 		<div id="carpa2">
@@ -157,65 +162,67 @@
 		<div id="nosotros">
 		<br>
 		<br>
-		<br>
+		
 		<p>
-			<img class="icono" src="imagenes/icono-web-blanco.png">
+			<img class="icono" id="icononos" src="imagenes/icono-web-blanco.png">
 		</p>
-		<article id="empresa" style="color: white;">
-			<p>Somos una empresa curicana con más de 10 años de exitosa trayectoria en el rubro del montaje y producción de eventos en la Región de O’Higgins y la Región del Maule.</p>
+		<br>
+		<article id="empresa" style="color: white; text-align: justify-all; padding: 10px;">
+			<p>Somos una empresa curicana con más de 10 años de exitosa trayectoria en el rubro del montaje y producción de eventos en la región de O’Higgins y la región del Maule.</p>
 			<p>Para cumplir con los estandares de calidad que hoy existe en el mercado, ofrecemos un servicio integral y de primer nivel, el cual cubre todas las aristas del evento a organizar.</p>
 		</article>
 	</div>
 	</section>
+	<br>
+	<br>
+	<br>
 	<section id="contacto">
-
-<div class="container">
-  <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-      
-          <form class="form-horizontal" action="enviar.php" method="post">
-          <fieldset>
-            <h1 style="font-weight: 800; text-align: center;">C O N T A C T O</h1> 
-            <br>
-            <br>
-            <br>
-            <br>  
-            <!-- Name input-->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="name" style="font-size: 15px;">Nombre</label>
-              <div class="col-md-9">
-                <input id="name" name="name" type="text" placeholder="Ingrese su nombre" class="form-control" required="">
-              </div>
-            </div>
-    
-            <!-- Email input-->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="email" style="font-size: 15px;">Correo</label>
-              <div class="col-md-9">
-                <input id="email" name="email" type="text" placeholder="Ingrese su correo" class="form-control" required>
-              </div>
-            </div>
-    
-            <!-- Message body -->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="message" style="font-size: 15px;">Mensaje</label>
-              <div class="col-md-9">
-                <textarea class="form-control" id="message" name="message" placeholder="Ingrese su mensaje" rows="5" required></textarea>
-              </div>
-            </div>
-    
-            <!-- Form actions -->
-            <div class="form-group">
-              <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary btn-lg" style="background-color: #6E6E6E; color: #ffffff;">Enviar</button>
-              </div>
-            </div>
-          </fieldset>
-          </form>
-      </div>
-  </div>
-</div>
-  </section>
+		<div class="container">
+		  <div class="row">
+		      <div class="col-md-6 col-md-offset-3">
+		          <form class="form-horizontal" action="enviar.php" method="post">
+		          <fieldset>
+		            <h1 style="font-weight: 800; text-align: center;">C O N T A C T O</h1> 
+		            <br>
+		            <br>
+		            <br>
+		            <br>  
+		            <!-- Name input-->
+		            <div class="form-group">
+		              <label class="col-md-3 control-label" for="name" style="font-size: 15px;">Nombre</label>
+		              <div class="col-md-9">
+		                <input id="name" name="name" type="text" placeholder="Ingrese su nombre" class="form-control" required="">
+		              </div>
+		            </div>
+		    
+		            <!-- Email input-->
+		            <div class="form-group">
+		              <label class="col-md-3 control-label" for="email" style="font-size: 15px;">Correo</label>
+		              <div class="col-md-9">
+		                <input id="email" name="email" type="text" placeholder="Ingrese su correo" class="form-control" required>
+		              </div>
+		            </div>
+		    
+		            <!-- Message body -->
+		            <div class="form-group">
+		              <label class="col-md-3 control-label" for="message" style="font-size: 15px;">Mensaje</label>
+		              <div class="col-md-9">
+		                <textarea class="form-control" id="message" name="message" placeholder="Ingrese su mensaje" rows="5" required></textarea>
+		              </div>
+		            </div>
+		    
+		            <!-- Form actions -->
+		            <div class="form-group">
+		              <div class="col-md-12 text-right">
+		                <button type="submit" class="btn btn-primary btn-lg" style="background-color: #6E6E6E; color: #ffffff;">Enviar</button>
+		              </div>
+		            </div>
+		          </fieldset>
+		          </form>
+		      </div>
+		  </div>
+		</div>
+  	</section>
 	<section id="bloque5">
 	<footer>
     <div class="container footer" id="footer" >

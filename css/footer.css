@@ -1,3 +1,4 @@
+
 .full {
     width: 100%;    
 }
@@ -9,8 +10,8 @@
 }
 .footer {
 	background: #6E6E6E;
-	height: 300px;
-	padding-bottom: 30px;
+	height: 250px;
+	padding-bottom: 10px;
 	position: relative;
 	width: 100%;
 	border-bottom: 1px solid #CCCCCC;
@@ -69,6 +70,7 @@
 	-ms-transition: all 0.5s ease 0s;
 	-o-transition: all 0.5s ease 0s;
 }
+
 .social li:hover {
 	transform: scale(1.15) rotate(360deg);
 	-webkit-transform: scale(1.1) rotate(360deg);
@@ -93,6 +95,7 @@
 	border-top: 1px solid #DDDDDD;
 	padding-top: 10px;
 	padding-bottom: 10px;
+
 }
 
 li{
@@ -103,7 +106,8 @@ li{
 }
 
 @media screen and (max-width: 800px){
-	#bloque5{
-		height: 1000px;
-	}
+
+	.footer{
+	height: 1200px;
+}
 }
