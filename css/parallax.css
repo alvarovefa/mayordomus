@@ -159,25 +159,36 @@ li{
 	margin: auto;
 }
 @media screen and (max-width: 800px){
-	#vajilla{
+		#vajilla{
+			margin-bottom: -40px;
+			width: 80%;
+			display:table-cell;
+			vertical-align:middle;
+			}
+		#nosotros{
+
+		margin-top: -100px;
 		width: 80%;
 		display:table-cell;
 		vertical-align:middle;
-		}
-	#nosotros{
-		margin-top: -200px;
-		width: 80%;
-		display:table-cell;
-		vertical-align:middle;
-		height: 1000px;
 		font-size: 14px;
+		
+
 		}
+
+		#losotros{
+			font-size: 28px;
+			color: #ffffff;
+		}
+
 		#empresa{
+			margin-top: 40px;
 			margin-bottom: 60px;
 			padding-bottom: 40px;
 		}	
 
-	#banquete{
+		#banquete{
+		margin-top: 30px;
 		width: 80%;
 		display:table-cell;
 		vertical-align:middle;
@@ -188,35 +199,38 @@ li{
 		#servi{
 			color: white;
 		}
-	#galeria{
-		width: 80%;
-		display:table-cell;
-		vertical-align:middle;
-	}
-	#carpa {
-		display: none;
-	}
-	#loza {
-		display: none;
-	}
-	#bloque5{
-		height: 1000px;
-	}
-	#footer{
-		height: 600px;
-	}
-	#bloque2{
-		background-image: url("../imagenes/fotocarpas.jpg");
-	}
-	#bloque3{
-		background-image: url("../imagenes/banquete.jpg");
-	}
-	#bloque6{
-		background-image: url("../imagenes/vajilla5.jpg");
-	}
-	#nuestra{
-		background-image: url("../imagenes/nuestra.jpg");
-	}
+		#we {
+			display: none;
+		}
+		#galeria{
+			width: 80%;
+			display:table-cell;
+			vertical-align:middle;
+		}
+		#carpa {
+			display: none;
+		}
+		#loza {
+			display: none;
+		}
+		#bloque5{
+			height: 1000px;
+		}
+		#footer{
+			height: 600px;
+		}
+		#bloque2{
+			background-image: url("../imagenes/fotocarpas.jpg");
+		}
+		#bloque3{
+			background-image: url("../imagenes/banquete.jpg");
+		}
+		#bloque6{
+			background-image: url("../imagenes/vajilla5.jpg");
+		}
+		#nuestra{
+			background-image: url("../imagenes/nuestra.jpg");
+		}
 
 
 }
